@@ -10,11 +10,17 @@ paginate = 50 #frontpage pagination
       unsafe = true
 
 [params]
+  ShowShareButtons = true
+
+
+
+
+
   header_image = "images/main_go_wideandtall_darklayer.jpeg"
   title = "Software Engineering"
   slogan = "$ grep -rni \"The how's and why's\" ."
-  SEOTitle = "Rich Youngkin Blog"
-  keyword = "Rich, Youngkin, Raspberry, Pi, Docker, Kubernetes, Go, Golang, Microservice"
+  SEOTitle = "Akin Kara Blog"
+  keyword = "Akin, Kara, Python, Javascript, Fastapi, Vuejs, Django, Linux, Bash"
  
   # Sidebar settings
   sidebar_about_description = "Father, Husband, Skier, Cyclist, and, oh yeah, Software Developer"
