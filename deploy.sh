@@ -15,7 +15,7 @@ fi
 echo ""
 echo ""
 echo "Committing changes to $(pwd)"
-/home/akin/Downloads/hugo_extended_0.90.1_Linux-64bit/hugo
+/home/akin/Downloads/hugo_extended_0.90.1_Linux-64bit/hugo -D
 # hugo -D
 
 # Go To Public folder
@@ -27,7 +27,7 @@ echo ""
 echo "Committing changes to $(pwd)"
 git add .
 git commit -m "$msg"
-git push origin master
+git push origin main
 
 # Add this repos changes to git and commit/push. First 'cd' out of public
 cd ..
@@ -36,4 +36,4 @@ echo ""
 echo "Committing changes to $(pwd)"
 git add .
 git commit -m "$msg"
-git push origin master
+git push origin main
