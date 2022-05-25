@@ -1,4 +1,5 @@
-baseurl = "https://akinkara.github.io"
+baseurl = "https://akinkara.dev"
+#baseurl = "https://akinkara.github.io"
 title = "Akin" # Kara
 theme = "PaperMod"
 languageCode = "en-us"
